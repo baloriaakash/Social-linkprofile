@@ -1,0 +1,68 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.main {
+  margin: 5em auto;
+  border: solid 1px black;
+  width: 25%;
+  text-align: center;
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 10px;
+}
+
+.pic {
+  border-radius: 100%;
+  height: 6em;
+  margin-top: 20px;
+}
+
+button {
+  width: 65%;
+  height: 2.5em;
+  border-style: none;
+  margin-top: 0.5em;
+  background-color: hsl(0, 0%, 20%);
+  border-radius: 5px;
+  color: white;
+}
+
+p {
+  line-height: 2em;
+}
+
+h2 {
+  color: white;
+}
+
+.p1 {
+  color: hsl(75, 94%, 57%);
+}
+
+.para {
+  color: white;
+}
+body {
+  background-color: hsl(0, 0%, 8%);
+}
+button:hover {
+  background-color: hsl(75, 94%, 57%);
+  cursor: pointer;
+}
+
+@media (width<760px) {
+  .main {
+    width: 40%;
+  }
+}
+@media (width<480px) {
+  .main {
+    width: 70%;
+  }
+}
+@media (width<375px) {
+  .main {
+    width: 80%;
+  }
+}
